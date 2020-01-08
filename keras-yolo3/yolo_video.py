@@ -67,11 +67,6 @@ if __name__ == '__main__':
     )
 
     FLAGS = parser.parse_args()
-    print()
-    print()
-    print(FLAGS)
-    print(type(FLAGS))
-    print(vars(FLAGS))
 
     if FLAGS.image:
         """
